@@ -471,7 +471,7 @@ footer {
 }
 
 .allDocumentsCard {
-    height: 2vh;
+    height: 15vh;
 }
 
 .documentsCard {
@@ -483,8 +483,8 @@ footer {
 
 .documentsImg {
     text-align: center;
-    width: 250px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
     margin: auto;
 }
 
@@ -503,7 +503,6 @@ footer {
     margin-left: 10%;
     margin-top: 20px;
     margin-bottom: 30px;
-    height: 120px;
 }
 
 .documentsContent ul li {
