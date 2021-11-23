@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <script src="./script.js"></script>
+    <title>IES Fernando Wirtz</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a id="headerLogo" href="index.html"><img class="logoWirtz" src="img/Logo_Wirtz_blanco.png"/></a>
+                
+            <div class="navBtnGroup">
+                <div class="dropdown">
+                    <button class="dropBtn" id="highschoolBtn">O centro</button>
+                    <div class="dropdown-content" id="highschoolDrop">
+                      <a href="#">Localización</a>
+                      <a href="#">Organización</a>
+                      <a href="./documentosOrganizativos.html">Documentos organizativos</a>
+                      <a href="#">Oferta educativa</a>
+                      <a href="#">Secretaría</a>
+                      <a href="#">Xefatura de estudos</a>
+                      <a href="#">Biblioteca</a>
+                      <a href="#">Consellería de educación</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropBtn" id="studentsBtn">Alumnos</button>
+                    <div class="dropdown-content" id="studentsDrop">
+                      <a href="#" class="secondLevelDrop" id="esoDrop">ESO <img class="arrowDown" src="icons/arrow-down.svg"></a>
+                        <div class="secondLevelDropContent" id="esoDropContent">
+                            <a href="#">Programacións</a>
+                            <a href="#">Libros</a>
+                            <a href="./titorias.html">Titorías</a>
+                            <a href="#">Calendario exames</a>
+                        </div>
+
+                      <a href="#" class="secondLevelDrop" id="bachDrop">Bacharelato <img class="arrowDown" src="icons/arrow-down.svg"></a>
+                        <div class="secondLevelDropContent" id="bachDropContent">
+                            <a href="#">Programacións</a>
+                            <a href="#">Libros</a>
+                            <a href="./titorias.html">Titorías</a>
+                            <a href="#">Calendario exames</a>
+                        </div>
+
+                      <a href="#" class="secondLevelDrop" id="fpDrop">FP <img class="arrowDown" src="icons/arrow-down.svg"></a>
+                        <div class="secondLevelDropContent" id="fpDropContent">
+                            <a href="#">Programacións</a>
+                            <a href="#">Libros</a>
+                            <a href="./titorias.html">Titorías</a>
+                            <a href="#">Calendario exames</a>
+                        </div>
+
+                      <a href="#" class="secondLevelDrop" id="esaDrop">ESA <img class="arrowDown" src="icons/arrow-down.svg"></a>
+                        <div class="secondLevelDropContent" id="esaDropContent">
+                            <a href="#">Programacións</a>
+                            <a href="#">Libros</a>
+                            <a href="./titorias.html">Titorías</a>
+                            <a href="#">Calendario exames</a>
+                        </div>
+
+                        <a href="./titorias.html">Titorías xeral</a>
+                        <a href="#">Calendario exames xeral</a>
+                        <a href="#">Orientación</a>
+                        <a href="#">International programs</a>
+                        <a href="#">Extraescolares</a>
+                        <a href="#">Aula virtual</a>
+                        <a href="#">XADE</a>
+                        <a href="#">Correo EDU</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropBtn" id="resourcesBtn">Recursos</button>
+                    <div class="dropdown-content" id="resourcesDrop">
+                      <a href="#">Impresos</a>
+                      <a href="#">Calendario</a>
+                      <a href="#">Lexislación</a>
+                      <a href="#">Soporte</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <a id="loginButton" href="https://www.fernandowirtz.com/login.php">Entrar</a>   
+        </nav>
+    </header>
+
+    <section id="heroSection">
+        <div><img id="studentCover" src="img/environment.svg" alt="Portada estudiante"></div>
+        <div id="heroSectionTitle">IES FERNANDO WIRTZ</div>
+        <div>
+            <a id="goToPrograms" href="#programs">Coñece a nosa oferta formativa</a>
+        </div>
+    </section>
+
+    <section id="news">
+        <div class="sectionHeader">Novas</div>
+
+        <button class="arrowButton" id="arrowButtonLeft"><img class="arrow" src="icons/arrow-left.svg" alt="Atrás"></div></button>
+
+        <article class="newsCard" id="firstCard">
+            <div class="newsTitle"><a class="newsTitle" href="./404.html">Carta Erasmus 2021-2027</a></div>
+            <div class="newsDate">29/09/2021</div>
+            <div class="newsContent">
+                ERASMUS CHARTER FOR HIGHER EDUCATION 2021-2027
+                The European Commission hereby awards this Charter to:
+                Instituto de Enseñanza Secundaria Fernando Wirtz Suárez (...)
+            </div>
+            <button class="more">Ler máis</button>
+        </article>
+
+        <article class="newsCard" id="secondCard">
+            <div class="newsTitle"><a class="newsTitle" href="./404.html">Validacións módulos FP</a></div>
+            <div class="newsDate">29/09/2021</div>
+            <div class="newsContent">
+                Pódense presentar na secretaría as validacións de módulos de FP.
+                As validacións que non son resoltas pola dirección e non deben solicitarse co impreso anterior son as seguintes (...)
+            </div>
+            <button class="more">Ler máis</button>
+        </article>
+        
+        <article class="newsCard" id="thirdCard">
+            <div class="newsTitle" ><a class="newsTitle" href="./404.html">Pluribach</a></div>
+            <div class="newsDate">29/09/2021</div>
+            <div class="newsContent">
+                Xa dispoñible documento de solicitude de participación.
+                Cubrir documento e entregar no centro.  
+                A normativa relacionada pódese consultar no adxunto (...)
+            </div>
+            <button class="more">Ler máis</button>
+        </article>
+
+        <button class="arrowButton" id="arrowButtonRight"><img class="arrow" src="icons/arrow-right.svg" alt="Adiante"></div></button>
+    </section>
+
+
+
+
+    <section id="programs">
+        <div class="sectionHeader">Oferta formativa</div>
+
+        <div class="studiesCard" id="ESO">
+            <a href="./404.html"><img class="indexLinkImg" src="img/eso.svg"/></a>
+            <div class="studiesContainer">
+                <p>ESO</p>
+                <p>Educación Secundaria Obligatoria</p>
+            </div>
+        </div>
+
+        <div class="studiesCard" id="FP">
+            <a href="./404.html"><img class="indexLinkImg" id="FPImg" src="img/coworkers.svg"/></a>
+            <div class="studiesContainer">
+                <p>FP</p>
+                <p>Formación Profesional</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="aboutUs">
+        <div class="sectionHeader">O noso centro</div>
+        <article>
+            <iframe class="aboutContent" src="https://www.youtube.com/embed/SCOyna4G5ZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="aboutContent">
+                A historia  do  IES  Fernando  Wirtz  iníciase  o  29  de  setembro  de  1929,  naquel  momento denominada  "Escola  de  Traballo"  para  formar  obreiros  capacitados  en  oficios  de  mecánica,  ferraxería, electricidade,  albanelería, carpintería, condución... que  pasaría a chamarse "Escola de  Mestría  Industrial"  ata  1970,  que  será  o    "Centro  Nacional  de  Formación  Profesional", "Instituto  de    Formación  Profesional"    e  "Instituto  de  Educación  Secundaria",  denominación última  á  que  se  lle  engade  a  de  "  Fernando  Wirtz  Suárez"  en    1979,  na  memoria  de  quen asentou  os  alicerces  destas  ensinanzas  na  Coruña:  enxeñeiro  industrial  director  en  1932  da "Escola Elemental do Traballo" ata o 1948.
+            </p>
+        </article>
+    </section>
+
+
+
+
+    <footer>
+        <div class="logoFooter">
+            <a href="index.html"><img class="logoWirtz" src="img/Logo_Wirtz_blanco.png"/></a>
+        </div>
+        <address>
+            <p>IES Fernando Wirtz Suárez</p>
+            <p>Rua Caballeros, 1 - 15006 A Coruña</p>
+            <p>Código plus de localización do IES Fernando Wirtz: 8CMH9H4V+7M</p>
+            <p><a class="contactLink" href="tel:+34881-960-260">881 960 260</a></p>
+            <p><a class="contactLink" href="mailto:ies.fernando.wirtz@edu.xunta.gal">ies.fernando.wirtz@edu.xunta.gal</a></p>
+        </address>
+        <div class="rrssList">
+            <ul>
+                <li>
+                    <a href="https://es-la.facebook.com/pages/category/Middle-School/IES-Fernando-Wirtz-Su%C3%A1rez-116226845121326/"><img class="rrssIcon" src="icons/facebook.svg"/></a>
+                </li>
+
+                <li>
+                    <a href="https://twitter.com/ies_wirtz?lang=es"><img class="rrssIcon" src="icons/twitter.svg"/></a>
+                </li>
+
+                <li>
+                    <a href="https://www.instagram.com/ies_wirtz/?hl=es"><img class="rrssIcon" src="icons/instagram.svg"/></a>
+                </li>
+
+                <li>
+                    <a href="https://www.youtube.com/channel/UCNd_mKtf0j-r40FUuGOop-Q"><img class="rrssIcon" src="icons/youtube.svg"/></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+</body>
+</html>
+
